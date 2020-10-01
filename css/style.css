@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+h1, button {
+  font-family: 'Parisienne';
+}
+
+.scene {
+  background: #f3f3f3;
+}
+
+.scene, canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.main-container, .main-container2, .main-container3 {
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5em;
+  width: 50%;
+  height: 100vh;
+  background: #440c0c;
+  color: #fff;
+  -webkit-transform: translateX(-120%);
+          transform: translateX(-120%);
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-conatiner h1 {
+  font-size: 4em;
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.main-container p {
+  margin-top: 3em;
+  font-size: 1.2em;
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.main-container .cta {
+  padding: 1.5rem;
+  border: 3px solid #fff;
+  background-color: transparent;
+  border-radius: 30px;
+  margin: 2rem 0rem;
+  width: 25%;
+  font-weight: 700;
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.main-container .cta:focus {
+  outline: none;
+}
+
+.main-container img {
+  width: 304px;
+  position: absolute;
+  z-index: -1;
+  bottom: 8%;
+  right: -4%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-conatiner2 h1 {
+  font-size: 4em;
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.main-container2 p {
+  margin-top: 3em;
+  font-size: 1.2em;
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.main-container2 .img1 {
+  width: 314px;
+  z-index: -1;
+  position: absolute;
+  bottom: 12%;
+  right: 10%;
+}
+
+.main-container2 .img2 {
+  position: absolute;
+  z-index: -1;
+  width: 300px;
+  right: -14%;
+  top: 23%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main-container2 .cta2 {
+  padding: 1.5rem;
+  border: 3px solid #fff;
+  background-color: transparent;
+  border-radius: 30px;
+  margin: 2rem 0rem;
+  width: 25%;
+  font-weight: 700;
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.main-container2 .cta2:focus {
+  outline: none;
+}
+
+.main-conatiner3 h1 {
+  font-size: 4em;
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.main-container3 p {
+  margin-top: 3em;
+  font-size: 1.2em;
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.main-container3 .cta3 {
+  padding: 1.5rem;
+  border: 3px solid #fff;
+  background-color: transparent;
+  border-radius: 30px;
+  margin: 2rem 0rem;
+  width: 25%;
+  font-weight: 700;
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.main-container3 .cta3:focus {
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
